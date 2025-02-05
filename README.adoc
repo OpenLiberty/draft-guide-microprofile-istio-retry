@@ -446,7 +446,7 @@ You will see the following output:
 5
 ----
 
-The above command returns 5, because there was a total of 5 requests made to the `system` service that included the initial request, 3 MicroProfile retry requests, and the succesful request that you made before you paused the `system` service.
+This command returns 5 because you made a total of 5 requests to the `system` service: the initial request, 3 MicroProfile retry requests, and the successful request that you made before you paused the `system` service.
 
 // =================================================================================================
 // Enabling Istio Fault Tolerance
