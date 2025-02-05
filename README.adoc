@@ -679,7 +679,7 @@ You will see the following output:
 5
 ----
 
-The above command returns 5, indicating that a total of 5 requests are made to the `system` service.
+This command returns 5, indicating that a total of 5 requests were made to the `system` service.
 Because MicroProfile's Retry policy is disabled, only Istio's retries are performed.
 
 traffic.yaml
